@@ -1,0 +1,160 @@
+.header {
+    height: 120px;
+    background-image: linear-gradient(0, #fe6433, #f53e2d);
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 4px;
+}
+
+.header__nav-item {
+    margin: 0 8px;
+    position: relative;
+    min-height: 26px;
+}
+
+.header__nav-item--has-qr:hover .header__qr{
+    display: block;
+}
+
+.header__nav-icon-link {
+    text-decoration: none;
+    color: var(--white--color);
+}
+
+.header__nav-icon {
+    font-size: 1.8rem;
+    margin: 0 6px;
+}
+
+.header__nav-item,
+.header__nav-item-link {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: var(--white--color);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.header__nav-item,
+.header__nav-item-link,
+.header__nav-icon-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.header__nav-item:hover,
+.header__nav-item-link:hover,
+.header__nav-icon-link:hover {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.header__nav-item--strong {
+    font-weight: 400;
+}
+
+.header__nav-item--separate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #fb9086;
+    height: 1.6rem;
+    top: 50%;
+    right: -9px;
+    transform: translateY(-50%);
+}
+
+.header__nav-title--no-pointer {
+    cursor: text;
+    color: var(--white--color);
+}
+
+/* header QR code */
+.header__qr {
+    width: 186px;
+    background-color: var(--white--color);
+    position: absolute;
+    left: 0;
+    top: 118%;
+    padding: 8px;
+    border-radius: 2px;
+    display: none; 
+    animation: fadeIn ease-in 0.3s;
+}
+
+.header__qr::before {
+    position: absolute;
+    left: 0;
+    top: -12px;
+    width: 100%;
+    height: 10%;
+    content: "";
+    display: block;
+}
+
+.header__qr-img {
+    width: 100%;
+}
+
+.header__qr-apps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__qr-link:nth-child(1) {
+    margin-left: 11px;
+}
+
+.header__qr-link:nth-child(2) {
+    margin-right: 11px;
+}
+
+.header__qr-download-img {
+    height: 16px;
+}
+
+/* Notification header */
+
+.header__notify {
+
+}
+
+.header__notify-header {
+
+}
+
+.header__notify-list {
+
+}
+
+.header__notify-item {
+
+}
+
+.header__notify-link {
+
+}
+
+.header__notify-img {
+
+}
+
+.header__notify-body {
+
+}
+
+.header__notify-name {
+
+}
+
+.header__notify-desc {
+
+}
