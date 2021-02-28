@@ -113,11 +113,60 @@
                     </div>
 
                     <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm">
+                            
+                            <!-- Search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="#">Kem dưỡng da</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="#">Mặt nạ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__select-label">Trong shop</span>
+                            <i class="header__select-icon fas fa-chevron-down"></i>
 
+                            <ul class="header__select-option">
+                                <li class="header__option-item header__option-item">
+                                    <span>Trong shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header__option-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
                     </div>
 
+                    <!-- Cart layout -->
                     <div class="header__cart">
-                        <i class="header__cart-icon fas fa-shopping-cart"></i>
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">3</span>
+
+                            <!-- No cart -->
+                            <!-- <div class="header__cart-list header__cart-list--no-cart">
+                                <img src="./assets/img/no-cart.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-mess">Chưa có sản phẩm</span>
+                            </div> -->
+
+                            <!-- Has cart -->
+                            <div class="header__cart-list">
+                                
+                                <span class="header__cart-list-no-cart-mess">Chưa có sản phẩm</span>
+                            </div>
+                        </div>     
                     </div>
                 </div>
             </div>
