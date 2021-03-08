@@ -7,9 +7,10 @@
     --star-gold: #ffce3d;
     --footer-color: rgb(115, 115, 115);
 
+    --header-sort-bar-height: 46px;
     --header--height: 120px;
     --navbar--height: 34px;
-    --heaer-with-search-height: calc(var(--header--height) - var(--navbar--height))
+    --heaer-with-search-height: calc(var(--header--height) - var(--navbar--height));
 }
 
 * {
@@ -25,15 +26,7 @@ html {
 }
 
 /* Responsive */
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
 
-.grid__full-width {
-    width: 100%;
-}
 
 .grid__row {
     display: flex;
@@ -221,6 +214,7 @@ html {
     justify-content: center;
     align-items: center;
     list-style: none;
+    padding-left: 0;
 }
 
 .pagination-item {
